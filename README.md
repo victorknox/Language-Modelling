@@ -1,11 +1,25 @@
-# The Language Model: Kneser Ney and Witten Bell Smoothing
+# The Neural Language Model
+A Neural Language Model built using Pytorch. 
 
+To run the language model, cd to the src directory of NLM and run the language model file
+
+``` python language_model.py <path to model>``` 
+
+(The model can be found in the models directory. )
+ Enter the sentence for which the probability has to be calculated. 
+example: 
+``` input sentence: I am a man.``` 
+0.89972021 
+
+
+# Smoothing
 This project contains the code to prepare a language model out of a dataset. A language model  is a probabilistic statistical model that determines the probability of a given sequence of words occurring in a sentence based on the previous words.
 
-The code contains two parts: 
+The code contains three parts: 
 
 1. Customized Tokenization: Cleans the input text
 2. Smoothing: Adjustment of the maximum likelihood estimator of a language model to make it more accurate. 
+
 
 There are two smoothing methods that can be used, Kneser Ney Smoothing and Witten Bell smoothing. 
 
