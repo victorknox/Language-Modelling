@@ -1,7 +1,8 @@
 # The Neural Language Model
 A Neural Language Model built using Pytorch. 
+The model was built using LSTMs and evaluated using perplexity scores.
 
-To run the language model, cd to the src directory of NLM and run the language model file
+To run the language model, cd to the src directory of LM in [NLM](https://github.com/victorknox/Language-Modelling/tree/master/NLM) and run the language model file
 
 ``` python language_model.py <path to model>``` 
 
